@@ -1,0 +1,350 @@
+@media (max-width: 1199px)
+	header nav 
+		.list_menu
+			.item_menu
+				padding-right: 20px
+				a
+					font-size: 13px
+	.promo 
+		.title_text
+			font-size: 50px
+	
+	.causes-section 
+		.item_causes
+			align-items: flex-start 
+			.text_causes
+				width: 295px;
+		.main-title_causes
+			font-size: 37px
+
+	footer 
+		.download
+			img
+				display: block
+				width: 80%
+				margin-left: 20%
+		.social_networks_round
+				height: 27px
+				width: 27px
+
+@media (max-width: 992px)
+	header nav 
+		.list_menu 
+			.item_menu
+				padding-right: 8px
+				a
+					font-size: 10px
+		
+	.logo-section
+		img
+			width: 100%
+			
+		.call a
+			font-size: 18px
+
+		.call_btn
+			margin-top: 23px;
+			width: 100%;
+			height: 40px
+		
+
+	.promo
+		.title_text
+			font-size: 40px
+		.subtitle_text					
+			font-size: 30px
+
+	.causes-section 
+		.item_causes
+			flex-direction: column
+			align-items: center
+			.round_causes
+				margin-bottom: 20px
+		.main-title_causes
+			font-size: 35px
+
+	.car-section
+		// min-height: 735px 
+		.title_car
+			width: 100%
+			font-size: 35px
+		.subtitle_car
+			width: 100%
+		.car
+			width: 90%
+
+	.requirements-section 
+		.requirements_title 
+    		font-size: 35px
+
+	.world-section 
+		.world_title 
+    		font-size: 35px
+	
+	footer 
+		.download
+			top: 105px
+		.social_networks
+			top: 105px
+		.footer-navigation_link
+			margin-top: 20px
+
+@media (max-width: 767px)
+	header 
+		nav
+			.list_menu
+				position: fixed
+				flex-direction: column
+				top: 0
+				left: -100%
+				width: 50%
+				height: 100vh
+				padding: 20px 15px
+				justify-content: space-around
+				align-items: center
+				transition: 0.6s all
+				&_active
+					left: 0
+				
+				background-color: rgba(0,0,0,.8)
+				.item_menu
+					margin-top: 20px 0
+					padding-right: 0
+					border: none
+					a
+						font-size: 17px
+		.hamburger
+			display: block
+			width: 20px
+			height: 12px
+			right: 10px
+			top: 50%
+			transform: translateY(-50%)
+			position: absolute
+			span
+				display: block
+				height: 2px
+				width: 100%
+				margin-top: 2px
+				background-color: #ffffff
+				transition: 0.5s all
+			&_active
+				span
+					margin-bottom: -4px
+					&:nth-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)
+	.logo-section
+		
+		.xs-visible
+			display: block
+			font-size: 16px
+			font-weight: normal
+			font-style: normal
+			font-stretch: normal
+			margin-top: 11px
+			text-align: center
+			
+			letter-spacing: normal
+			text-align: center
+			color: #ffffff
+		.xs-hidden_block
+			display: none
+		.call_btn
+			margin-top: 9px
+			height: 33px
+
+	.mobile-section
+		.title_mobile
+			font-size: 35px
+		.row 
+			.item_screen
+				width: 70%
+	
+	.car-section
+		min-height: 700px
+		.title_car
+			font-size: 35px
+			width: 100%
+		.car
+			width: 100%
+			right: 52%
+		.footer_text 
+    		bottom: 38px
+	footer
+		height: 220px
+		.social_networks 
+			top: 125px
+			left: 50%
+			transform: translateX(-50%)
+		.download 
+			top: 170px
+			right: 50%
+			transform: translateX(37%)
+
+
+@media (max-width: 575px)
+	header nav 
+		.list_menu_active
+			width: 77%
+	
+	.logo-section
+		height: 60px
+		.logo
+			.official-name
+				display: none
+		// img
+		// 	margin-top: 10px
+		a
+			width: 110px
+			margin-left: 20%
+		.call_btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+			margin-left: 20%
+		.xs-visible
+			font-size: 12px
+			line-height: 7px
+
+			
+	.promo
+		height: 400px
+		padding: 53px 0 35px 0
+		.title_content
+			display: none
+		.title_text
+			font-size: 30px
+			margin: 54px 0 0 0
+			line-height: 36px
+		.subtitle_text
+			font-size: 20px
+			line-height: 27px
+		.request_btn
+			width: 210px
+			height: 50px
+			font-style: 16px
+			margin-top: 59px
+
+	.causes-section
+		padding-bottom: 50px
+		.box_advantages
+			margin-top: 22px
+		.main-title_causes
+			margin: 15px 0 0 0
+			font-size: 15px
+		.item_causes
+			margin-top: 11px
+			.round_causes
+				width: 100px
+				height: 100px
+			.text_causes
+				margin-left: 0
+
+	.mobile-section
+		padding: 22px 0 43px 0
+		.title_mobile 
+			font-size: 16px
+			margin-top: 15px
+			line-height: 11px
+		.subtitle_mobile
+			margin-top: 11px
+			font-size: 14px
+		.row
+			.item_screen 
+				width: 223px
+				margin-bottom: 30px
+				.screen_descr
+					font-size: 18px
+
+	.car-section
+		padding-top: 25px
+		background: none
+		background-color: black
+		min-height: 390px
+		
+		.top-section
+			display: none
+		.title_car
+			display: none
+			font-size: 25px
+		.subtitle_car
+			display: none
+			font-size: 15px
+		.opportunities
+			top: 25px
+			right: 50%
+		.car
+			top: 84px
+			right: 50%
+			width: 300px
+		.footer_text
+			bottom: 33px
+			width: 249px
+			font-size: 17px
+			font-weight: 300
+			font-style: normal
+			font-stretch: normal
+			line-height: 1.41
+			letter-spacing: normal
+			text-align: center
+			color: #ffffff
+	
+	.requirements-section
+		padding: 25px 0 26px 0
+		.requirements_title
+			font-size: 16px
+			margin-top: 15px
+			line-height: 11px
+		.require_item
+			margin: 22px 0 9px 0
+			.require_list
+				padding-left: 12px
+
+	.world-section 
+		height: 360px
+		padding: 25px 0 30px 0
+		.world_title 
+			margin-top: 15px
+			font-size: 16px
+			line-height: 11px
+		.world_subtitle
+			margin-top: 10px
+			font-size: 14px
+			line-height: 9px
+		.link-cities
+			margin-top: 216px
+			font-size: 15px
+			line-height: 10px
+	footer
+		min-height: 245px
+		padding: 25px 0 20px 0
+		.blue-line
+    		width: 253px
+		.footer-navigation_link 
+			margin-top: 19px
+			font-size: 14px
+			width: 300px
+		.footer-sub-navigation_link
+			flex-wrap: wrap
+			width: 239px
+			margin: 0 auto 0 auto
+			line-height: 24px
+			div
+				a
+					font-size: 11px
+		.language
+			margin: 10px auto 0 auto
+		.social_networks
+			top: 149px
+		.download
+				top: 201px
+				width: 100%
+				transform: translateX(40%)
+				// &:nth-child(2)
+						
+
+				
