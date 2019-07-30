@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Russo One";
-  src: url("/fonts/RussoOne-Regular.ttf");
-}
-
 * {
-  font-family: "Russo One", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
